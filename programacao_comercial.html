@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UFT-8">
+		<title>Programação Comercial</title>
+		<script src="js/funcoes.js"></script>
+		<link rel="stylesheet" type="text/css"href="css/styles.css">
+</head>
+<body>
+	<h1>Primeriro cabeçalho.</h1>
+	<p>
+		Primeiro paragrafo.
+	</p>
+	<img src="img/download(1).jpg" title="Primeira imagem" height="60" width="60">
+
+	<a href="https://www2.ufjf.br/ufjf/ensino/graduacao/ciencia-da-computacao/" target="blank"> 
+		Primeiro link
+	</a>
+
+	<h2>Lista ordenada</h2>
+		<p1>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</p1>
+
+	<h2>Lista não ordenada</h2>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ul>
+
+
+	<table>
+		<caption>Descrição da tabela</caption>
+		<thead>
+			<tr>
+				<th>Coluna 1</th>
+				<th>Coluna 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Linha 1 - Coluna 1</td>
+				<td>Linha 1 - Coluna 2</td>
+			</tr>
+			<tr>
+				<td>Linha 2 - Coluna 1</td>
+				<td>Linha 2 - Coluna 2</td>
+			</tr>
+			<tr>
+				<td>Linha 3 - Coluna 1</td>
+				<td>Linha 3 - Coluna 2</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<form action="/cadastro/" method="post"> 
+		Login: <input type="text" name="Login" placeholder="Digite seu login">
+		senha: <input type="password" name="senha" placeholder="password">
+	<br />
+	<input type="radio" name="sexo" value="1" checked> Masculino
+	<input type="radio" name="sexo" value="2"> Feminino
+	<br />
+	<input type="checkbox" name="veiculo1" value="bike"> Eu tenho uma bike
+	<input type="checkbox" name="veiculo2" value="carro"> Eu tenho um carro
+	<br />
+
+	Curso:
+	<select>
+		<option value="1">Ciência da Computação</option>
+		<option value="2">Direito</option>
+		<option value="3">Engenharia Elétrica</option>
+		<option value="4">Medicina</option>
+	</select>
+	<br />
+		Mensagem: <textarea name="message" rows="10" cols="30"></textarea>
+	<br />
+		Idade: <input type="number" name="idade" min="0" max="100" step="1" value="30">
+	<br />
+		Data de nascimento: <input type="date" name="data_nascimento" min="1990-01-02">
+
+	<br />
+
+	Auto complete: <input list="cidades">
+	<datalist id="cidades">
+		<option>Campinas</option>
+		<option>Curitiba</option>
+		<option>Palmas</option>
+		<option>Cuiabá</option>
+		<option>Porto Nacional</option>
+		<option>Brasilia</option>
+		<option>Goiania</option>
+		<option>Uberlandia</option>
+		<option>Riberão Preto</option>
+		<option>Rio Verde</option>
+		<option>São José do Rio Preto</option>
+		<option>Ponta Grossa</option>
+		<option>Florianopoles</option>
+	</datalist>
+
+	<input type="hidden" name="country" value="Brasil">
+<br />
+	<input type="reset" value="Limpar">
+	<input type="submit" value="Enviar">
+	<button type="button" onclick="alert('Hello World')">Click Me!</button>
+</form>
+
+<div id="area-mensagens">
+	Elementos de blocos
+</div>			
+
+Elements <span class="destaque"> de </span> linha
+
+<h2>
+	<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_color" target="blank">
+	Outros elementos </a>
+
+		<form action="/action_page.php">
+			 <label for="favcolor">Selecione sua cor favorita</label>
+ 			 <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  			<input type="submit" value="Submit">
+		</form>
+</h2>
+
+</body>
+</html>
